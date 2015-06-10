@@ -7,8 +7,8 @@
 PROGRAM       := memory.server
 CFLAGS        += -O2 -Wall
 
-SRC_DIRS      := .
-INCLUDE_DIRS  := -I.
+SRC_DIRS      := ./src
+INCLUDE_DIRS  := -I./src
 LIBS          := 
 OBJS_DIR      := ./objs
 
