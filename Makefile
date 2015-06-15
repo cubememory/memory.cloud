@@ -1,10 +1,10 @@
 ###########################################################
 ## Usage:
-## make       : make memory.server
+## make       : make memory.cloud
 ## make clean : clean all
 ###########################################################
 
-PROGRAM       := memory.server
+PROGRAM       := memory.cloud
 CFLAGS        += -O2 -Wall
 
 SRC_DIRS      := ./src
